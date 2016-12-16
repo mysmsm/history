@@ -1,0 +1,35 @@
+/*#footer*/
+#footer_wrap .footer{
+	width:1170px;
+	margin:0 auto;
+	padding:45px 0 45px 0; 
+	position: relative;
+	
+}
+#footer_wrap .footer .bottom_util{
+	margin-top:12px;
+}
+#footer .logo .logo_bottom, #footer_wrap .footer .bottom_util li{
+	float:left;
+}
+#footer_wrap .footer .bottom_util li:first-child{
+	margin-right:12px;
+}
+#footer .logo ul.sns, #footer_wrap .footer ul{
+	float:right;
+}
+/*#footer_wrap .footer .sns{
+	position: absolute;
+	top:58px;
+	right:0px;
+	float:right;
+}*/
+#footer_wrap .footer .sns li{
+	padding-left:13px;
+	float:left;
+}
+
+#footer_wrap .footer .copy{
+	margin-top:13px;
+	width:207px;
+}

@@ -1,0 +1,30 @@
+/*#header*/
+#header_wrap .header {
+	width:1170px;
+	margin:0 auto; 
+	padding:36px 0 50px 0;
+}
+#header_wrap .header h1, #header_wrap .header .gnb ul, #header_wrap .header .gnb li, #header_wrap .header .util li{
+	float:left;
+}
+#header_wrap .header .gnb a{text-decoration: none; }
+#header_wrap .header .gnb a:link{text-decoration: none;}
+#header_wrap .header .gnb a:hover{border-bottom:3px #900801 solid; padding-bottom:29px;}
+#header_wrap .header .gnb a.on{border-bottom:3px #900801 solid; padding-bottom:29px;}
+
+#header_wrap .header .gnb ul{
+	margin:8px 0 0 187px;
+}
+#header_wrap .header .gnb li{
+	margin-right:70px;
+}
+#header_wrap .header .gnb li:last-child{
+	margin-right:0px;
+}
+#header_wrap .header .util ul{
+	float:right;
+	margin:9px 0 0 0;
+}
+#header_wrap .header .util li:first-child{
+	margin:0 12px 0 0;
+}

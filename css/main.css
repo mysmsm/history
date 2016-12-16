@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url(base.css); 
+@import url(header.css);
+@import url(footer.css); 
+@import url(layouts.css); 
+
+
+/*#container*/
+#container .content_top li{
+	float:left;
+}
+#container .content_top li img{
+	vertical-align: top;
+}
+#container .content_bottom{
+	float:left;
+	margin-top:35px;
+}
+#container .content_bottom .title{
+	background:url(../images/dot.gif) repeat-x center;
+	width:1170px;
+}
+#container .content_bottom .title .title_text{
+	margin-right:10px;
+}
+#container .content_bottom ul{
+	margin-top:35px;
+	padding-bottom: 10px;
+	overflow: hidden;
+	width:1170px\9;
+}
+ #container .content_bottom li{
+	float:left;
+}
+#container .content_bottom li img{
+	vertical-align: top;
+}

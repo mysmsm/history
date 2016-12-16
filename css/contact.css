@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import url(base.css); 
+@import url(header.css); 
+@import url(footer.css); 
+@import url(layouts.css); 
+
+
+/*#container*/
+#container{
+	margin:190px auto;
+	text-align: center;
+}
+#container h2{
+	font-size:41px; font-weight: bold; line-height: 41px;
+}
+#container .contact{
+	width:298px;
+	margin:0 auto;
+}
+
+#container .contact .contact_mail{
+	border-bottom:1px #a8a9a9 dotted;
+	padding-bottom:30px;
+	color:#a8a9a9 ;
+}
+#container .contact .contact_mail .mail_bt{
+	margin:34px 0 10px 0;
+}
+#container .contact .contact_mail .mail_bt a img{
+    filter: gray; /* IE */
+    -webkit-filter: grayscale(1); /* Old WebKit */
+}
+
+#container .contact .contact_mail .mail_bt a:hover img{
+	filter: 0;
+	-webkit-filter: grayscale(0); /* Old WebKit */
+}
+
+#container .contact .info{
+	margin-top:30px;
+	position:relative;
+}
+#container .contact .info li{
+	text-align:left;
+}
+#container .contact .info .info_sns{
+	position:absolute;
+	top:0;
+	right:0;
+}
+#container .contact .info .info_sns li{
+	float:left;
+	margin-left:12px;
+}
